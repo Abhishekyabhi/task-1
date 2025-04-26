@@ -1,0 +1,69 @@
+🛠️ Setup
+git config --global user.name "Your Name"
+Set your Git username.
+
+git config --global user.email "you@example.com"
+Set your Git email.
+
+📁 Repository Basics
+git init
+Create a new Git repository.
+
+git clone <repo_url>
+Clone a remote repository.
+
+✅ Staging & Committing
+git status
+Show the working tree status.
+
+git add <file>
+Stage a file.
+
+git add .
+Stage all changes.
+
+git commit -m "message"
+Commit staged changes with a message.
+
+🌲 Branching
+git branch
+List branches.
+
+git branch <name>
+Create a new branch.
+
+git checkout <branch>
+Switch to a branch.
+
+git checkout -b <name>
+Create and switch to a new branch.
+
+git merge <branch>
+Merge a branch into the current one.
+
+🔄 Remote Repositories
+git remote -v
+View remote URLs.
+
+git push origin <branch>
+Push branch to remote.
+
+git pull origin <branch>
+Pull latest changes from remote.
+
+git fetch
+Fetch changes from remote without merging.
+
+🧼 Undoing Things
+git reset <file>
+Unstage a file.
+
+git checkout -- <file>
+Discard changes in a file.
+
+git revert <commit>
+Revert a commit.
+
+git reset --hard <commit>
+Reset to a specific commit (destructive).
+
